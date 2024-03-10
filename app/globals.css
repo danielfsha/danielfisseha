@@ -12,7 +12,7 @@
 
   --border-radius: 30px;
 
-  --vertical-section-offset: 200px;
+  --vertical-section-offset: 20vh;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
 
 @layer components {
   .wrapper {
-    @apply container mx-auto max-w-7xl px-8;
+    @apply container mx-auto max-w-7xl px-8 py-[10vh];
   }
 
   .btn,
