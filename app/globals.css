@@ -42,7 +42,7 @@ body {
   }
 
   .heading {
-    @apply font-['Monoska'] text-4xl lg:text-6xl text-center max-w-4xl pb-8;
+    @apply text-4xl lg:text-6xl text-center max-w-4xl pb-8;
   }
 
   .nav__link {
