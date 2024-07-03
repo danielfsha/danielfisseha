@@ -17,7 +17,7 @@ function ProjectCard() {
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="flex flex-col space-x-0 p-4 bg-white border shadow-xl rounded-4xl shadow-gray-500/10 rounded-[var(--border-radius)] transition-all cursor-pointer lg:flex-row lg:space-y-2 lg:space-x-6"
+      className="flex flex-col space-x-0 p-2 bg-white border shadow-xl rounded-4xl shadow-gray-500/10 rounded-[var(--border-radius)] transition-all cursor-pointer lg:flex-row lg:space-y-2 lg:space-x-6"
     >
       {/* project image */}
       <div className="flex-1 min-h-[450px] bg-orange-600 rounded-[var(--border-radius)] overflow-hidden hero__texture"></div>
