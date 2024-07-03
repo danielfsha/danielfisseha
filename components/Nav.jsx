@@ -21,7 +21,7 @@ const nav = () => {
         <NavLinks />
 
         <Link href="#contact">
-          <button className="btn">contact me</button>
+          <button className="btn btn__primary">contact me</button>
         </Link>
       </nav>
     </div>

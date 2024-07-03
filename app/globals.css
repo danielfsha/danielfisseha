@@ -15,26 +15,25 @@
   --vertical-section-offset: 20vh;
 }
 
-body {
-  width: 100vw;
-  min-height: 100vh;
-  background: var(--secondary-color);
-  color: var(--teritatry-color);
-  overflow-x: hidden;
-
-  font-family: "Neue Machina", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
-  font-size: 15px;
-}
-
 @layer components {
-  .wrapper {
-    @apply container mx-auto max-w-7xl px-8 py-[10vh];
+  body {
+    @apply w-screen h-screen overflow-x-hidden bg-gray-100;
   }
 
-  .btn,
+  .wrapper {
+    @apply container mx-auto max-w-screen-lg px-2 py-[10vh];
+  }
+
+  .btn {
+    @apply bg-black text-white border shadow-xl shadow-gray-500/10 uppercase px-6 py-3 rounded-full border-none transition-all hover:opacity-85 hover:scale-95;
+  }
+
   .nav__link {
-    @apply text-black bg-white font-thin uppercase px-6 py-2 rounded-full shadow-sm border-none transition-all hover:opacity-85 hover:scale-95;
+    @apply text-black bg-white border shadow-gray-500/10 uppercase px-6 py-3 rounded-full border-none shadow-none;
+  }
+
+  .btn__primary {
+    @apply shadow-xl rounded-3xl bg-gradient-to-br from-orange-500 to-orange-600 shadow-orange-500/30;
   }
 
   .btn-dark {
@@ -43,17 +42,5 @@ body {
 
   .heading {
     @apply text-4xl lg:text-6xl text-center max-w-4xl pb-8;
-  }
-
-  .nav__link {
-    @apply bg-transparent text-white;
-  }
-
-  .hero__texture {
-    @apply bg-[url('/hero__texture.png')] bg-cover bg-center overflow-hidden;
-  }
-
-  .input__field {
-    @apply flex-1 p-2 px-4 border-[1px] text-gray-100 bg-transparent rounded-full shadow-sm;
   }
 }

@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       id="#hero"
-      className="hero__texture flex flex-col items-center justify-center min-h-[85vh]"
+      className="flex flex-col items-center justify-center min-h-[85vh]"
     >
       <motion.div
         initial={{ y: "-50%", opacity: 0 }}
@@ -16,9 +16,9 @@ function Hero() {
         <h1 className="heading">
           I craft digital masterpieces that leave a lasting impression
         </h1>
-        <div className="flex space-x-3">
+        <div className="flex space-x-2">
           <button className="btn">download cv</button>
-          <button className="btn btn-dark">contact me</button>
+          <button className="btn btn__primary">contact me</button>
         </div>
       </motion.div>
     </section>

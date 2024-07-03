@@ -21,7 +21,7 @@ const fadeInAnimationVariants = {
 
 function Skills() {
   return (
-    <div className="flex flex-wrap justify-center gap-2 py-[10vh] pt-[20vh] lg:p-[var(--vertical-section-offset)] lg:px-[300px] text-xl">
+    <div className="flex flex-wrap justify-center gap-1 py-[10vh] pt-[20vh] lg:p-[var(--vertical-section-offset)] lg:px-[300px] text-xl">
       {skillsData.map((skill, index) => (
         <motion.span
           key={index}
