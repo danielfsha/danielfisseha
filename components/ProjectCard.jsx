@@ -19,6 +19,7 @@ function ProjectCard({ link, bannerImg, name, description, tags }) {
     >
       <Link
         href={link}
+        target="_blank"
         className="flex flex-col space-x-0 p-2 bg-white border shadow-xl shadow-gray-500/10 rounded-[var(--border-radius)] transition-all cursor-pointer lg:flex-row lg:space-y-4 lg:space-x-6"
       >
         {/* project image */}
