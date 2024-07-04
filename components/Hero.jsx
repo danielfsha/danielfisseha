@@ -11,13 +11,13 @@ function Hero() {
       id="#hero"
       className="flex flex-col items-center justify-center h-screen"
     >
-      <Socials />
       <motion.div
         initial={{ y: "-50%", opacity: 0 }}
         whileInView={{ y: "0%", opacity: 1 }}
         viewport={{ once: true }}
         className="flex flex-col items-center justify-center"
       >
+        <Socials />
         <h1 className="heading">
           I craft digital masterpieces that leave a lasting impression
         </h1>
