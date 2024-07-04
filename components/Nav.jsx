@@ -9,7 +9,7 @@ const nav = () => {
       <nav className="wrapper relative flex items-center justify-between py-6">
         <div>
           <Image
-            src="/logo.svg"
+            src="icons/logo.svg"
             alt="Daniel Fisseha Logo"
             className="dark:invert"
             width={42}
@@ -21,7 +21,13 @@ const nav = () => {
         <NavLinks />
 
         <Link href="#contact">
-          <button className="btn btn__primary">contact me</button>
+          <Link
+            target="_blank"
+            href="mailto:developedbydanielfisseha@gmail.com"
+            className="btn btn__primary"
+          >
+            contact me
+          </Link>
         </Link>
       </nav>
     </div>

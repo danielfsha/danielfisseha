@@ -5,6 +5,8 @@ import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/constants/data";
 
 function Projects() {
+  console.log(projects);
+
   return (
     <div className="wrapper pb-[var(--vertical-section-offset)]">
       {projects.map((project, index) => (

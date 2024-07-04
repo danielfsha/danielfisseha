@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <footer className="hero__texture flex items-center justify-center m-2 p-4 rounded-[var(--border-radius)] ">
