@@ -27,10 +27,9 @@ function Skills() {
           key={index}
           className="btn"
           variants={fadeInAnimationVariants}
-          initial="initial"
-          whileInView="animate"
+          initial="animate"
           viewport={{
-            once: false,
+            once: true,
           }}
           custom={index}
         >

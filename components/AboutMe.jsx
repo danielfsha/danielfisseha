@@ -8,6 +8,7 @@ function AboutMe() {
       id="#about"
       initial={{ y: "-50%", opacity: 0 }}
       whileInView={{ y: "0%", opacity: 1 }}
+      viewport={{ once: true }}
       className="wrapper heading text-xl lg:text-4xl pb-0 py-[var(--vertical-section-offset)]"
     >
       hi I am daniel, a detail-oriented web developer and graphics designer with

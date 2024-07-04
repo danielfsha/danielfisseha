@@ -14,7 +14,8 @@ function Hero() {
       <Socials />
       <motion.div
         initial={{ y: "-50%", opacity: 0 }}
-        animate={{ y: "0%", opacity: 1 }}
+        whileInView={{ y: "0%", opacity: 1 }}
+        viewport={{ once: true }}
         className="flex flex-col items-center justify-center"
       >
         <h1 className="heading">
@@ -29,7 +30,13 @@ function Hero() {
           >
             download cv
           </Link>
-          <button className="btn btn__primary">contact me</button>
+          <Link
+            target="_blank"
+            href="mailto:developedbydanielfisseha@gmail.com"
+            className="btn btn__primary"
+          >
+            contact me
+          </Link>
         </div>
       </motion.div>
     </section>
