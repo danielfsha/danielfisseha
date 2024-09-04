@@ -75,7 +75,7 @@ export const projects = [
         description: 'It uses the Google Gemini to create the embeddings and deepgram Speech-to-Text API to convert your voice into text, and then uses Google gemini API to generate a response based on the text. The app allows you to have a conversation with a PDF file using your voice, making it a useful tool for people who want to interact with PDF files in a more natural way.',
         bannerImg: 'pdfChat.PNG',
         tags: ['Nextjs', 'Google Gemini', 'Speech-to-Text', 'Deepgram', 'Nodejs', 'NextAuthjs', "Firebase"],
-        link: 'https://pdf-chat.vercel.app/'
+        link: 'https://pdf-chat-voice-app.vercel.app/'
     },
     {
         name: 'Cross Chain EVM Wallet',

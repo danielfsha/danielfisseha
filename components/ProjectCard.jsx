@@ -36,9 +36,7 @@ function ProjectCard({ link, bannerImg, name, description, tags }) {
           <p className="text-sm text-gray-500">{description}</p>
           <div className="flex items-center space-x-2 flex-wrap">
             {tags.map((tag, index) => (
-              <button key={index} className="btn">
-                {tag}
-              </button>
+              <p key={index}>{`#${tag}`}</p>
             ))}
           </div>
         </div>
