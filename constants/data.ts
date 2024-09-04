@@ -43,8 +43,13 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
+    "Git",
+  'Firebase',
+    "Tailwind",
+    'MongoDB',
+    'NextAuthjs',
+    'figma',
+  "Typescript",
   "Solidity",
   "RecoilJs",
   "HardhatJs",
@@ -53,11 +58,25 @@ export const skillsData = [
   "Alchemy",
   "Moralis",
   "Metamask",
-  "EthersJs"
+  "EthersJs",
 ] as const;
 
 
 export const projects = [
+    {
+        name: 'Node based social media automation builder',
+        description: 'This is a Nextjs app that allows you to create a social media automation bot that can be used to post on multiple platforms such as Twitter, Instagram, and Facebook. It also allows you to trigger certain actions based on events like email recived. The app allows you to make professional social media presence by automating your social media posts and actions.',
+        bannerImg: 'automationBuilder.PNG',
+        tags: ['Nextjs', 'Nodejs', 'NextAuthjs', 'Bot', "MongoDB"],
+        link: 'https://automation-builder-app.vercel.app/'
+    },
+    {
+        name: 'Chat with PDF using your voice',
+        description: 'It uses the Google Gemini to create the embeddings and deepgram Speech-to-Text API to convert your voice into text, and then uses Google gemini API to generate a response based on the text. The app allows you to have a conversation with a PDF file using your voice, making it a useful tool for people who want to interact with PDF files in a more natural way.',
+        bannerImg: 'pdfChat.PNG',
+        tags: ['Nextjs', 'Google Gemini', 'Speech-to-Text', 'Deepgram', 'Nodejs', 'NextAuthjs', "Firebase"],
+        link: 'https://pdf-chat.vercel.app/'
+    },
     {
         name: 'Cross Chain EVM Wallet',
         description: 'This is a Non custodial wallet in which you are responsible for storing and managing your private keys. It allows you to create new wallet, recover existing wallet from seed phrase, view their balances, token holding, NFTs, past activities and initiate new transactions. ',
@@ -72,11 +91,5 @@ export const projects = [
         tags: ['Defi', 'ERC20', "Token"],
         link: 'https://tokenfactoryfrontend.vercel.app/'
     },
-    {
-        name: 'NFT Minter DApp',
-        description: 'An NFT minting DApp to mint unique digital assets on the Ethereum Spolia.It has a visually appealing user interface that allows you to easily connect your wallets, pick an image for NFT designs, and initiate the minting process after providing name, symbol and description',
-        bannerImg: 'nftminter.PNG',
-        tags: ['NFT', 'Collectables', "ERC721"],
-        link: 'https://nftminter-livid.vercel.app/'
-    }
+
 ] as const;
