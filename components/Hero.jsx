@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 import Socials from "@/components/Socials";
 import Link from "next/link";
 
@@ -11,12 +9,7 @@ function Hero() {
       id="#hero"
       className="flex flex-col items-center justify-center h-screen"
     >
-      <motion.div
-        initial={{ y: "-50%", opacity: 0 }}
-        whileInView={{ y: "0%", opacity: 1 }}
-        viewport={{ once: true }}
-        className="flex flex-col items-center justify-center"
-      >
+      <div className="flex flex-col items-center justify-center">
         <Socials />
         <h1 className="heading">
           I craft digital masterpieces that leave a lasting impression
@@ -38,7 +31,7 @@ function Hero() {
             contact me
           </Link>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }

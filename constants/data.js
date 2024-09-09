@@ -15,7 +15,7 @@ export const links = [
         name: 'Projects',
         hash: '#projects' 
     }
-] as const
+]
 
 export const socials = [
     {
@@ -33,7 +33,7 @@ export const socials = [
         link: "mailto:developedbydanielfisseha@gmail.com",
         icon: 'gmail.svg'
     }
-] as const 
+]
 
 
 export const skillsData = [
@@ -59,7 +59,7 @@ export const skillsData = [
   "Moralis",
   "Metamask",
   "EthersJs",
-] as const;
+];
 
 
 export const projects = [
@@ -71,11 +71,11 @@ export const projects = [
         link: 'https://automation-builder-app.vercel.app/'
     },
     {
-        name: 'Chat with PDF using your voice',
+        name: 'Talk to PDF using your voice',
         description: 'It uses the Google Gemini to create the embeddings and deepgram Speech-to-Text API to convert your voice into text, and then uses Google gemini API to generate a response based on the text. The app allows you to have a conversation with a PDF file using your voice, making it a useful tool for people who want to interact with PDF files in a more natural way.',
-        bannerImg: 'pdfChat.PNG',
-        tags: ['Nextjs', 'Google Gemini', 'Speech-to-Text', 'Deepgram', 'Nodejs', 'NextAuthjs', "Firebase"],
-        link: 'https://pdf-chat-voice-app.vercel.app/'
+        bannerImg: 'chatPdf.PNG',
+        tags: ['AI', 'Nextjs', 'Google Gemini', 'Speech-to-Text', 'Deepgram', 'Nodejs', 'NextAuthjs', "Firebase"],
+        link: 'https://pdf-chat-flax.vercel.app/'
     },
     {
         name: 'Cross Chain EVM Wallet',
@@ -91,5 +91,4 @@ export const projects = [
         tags: ['Defi', 'ERC20', "Token"],
         link: 'https://tokenfactoryfrontend.vercel.app/'
     },
-
-] as const;
+];

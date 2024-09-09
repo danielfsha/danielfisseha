@@ -33,10 +33,10 @@ function ProjectCard({ link, bannerImg, name, description, tags }) {
         {/* project details */}
         <div className="flex flex-1 flex-col justify-start items-start space-y-6">
           <h1 className="text-lg font-medium text-black lg:text-5xl">{name}</h1>
-          <p className="text-sm text-gray-500">{description}</p>
-          <div className="flex items-center space-x-2 flex-wrap">
+          <p className="text-sm text-gray-500 flex-1">{description}</p>
+          <div className="flex items-center flex-wrap">
             {tags.map((tag, index) => (
-              <p key={index}>{`#${tag}`}</p>
+              <p key={index} className="mr-1 mt-1 btn-dark ">{`#${tag}`}</p>
             ))}
           </div>
         </div>

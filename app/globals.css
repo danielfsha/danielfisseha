@@ -37,7 +37,7 @@
   }
 
   .btn-dark {
-    @apply text-[var(--teritary-color)] bg-[var(--secondary-color)];
+    @apply text-[var(--teritatry-color)] bg-[var(--secondary-color)] p-1 px-2 rounded-full;
   }
 
   .heading {
