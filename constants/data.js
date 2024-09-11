@@ -79,14 +79,14 @@ export const projects = [
     },
     {
         name: 'Cross Chain EVM Wallet',
-        description: 'This is a Non custodial wallet in which you are responsible for storing and managing your private keys. It allows you to create new wallet, recover existing wallet from seed phrase, view their balances, token holding, NFTs, past activities and initiate new transactions. ',
+        description: 'The wallet allows you to view your balances and see all your token holdings in one place, keeping you informed about your assets. Additionally, you can manage your Non-Fungible Tokens (NFTs) directly within the wallet, making it easy to track your digital collectibles. You can also keep an eye on your transaction history, including all your past activities, to effectively manage your portfolio. ',
         bannerImg: 'wallet.PNG',
-        tags: ['EVM', 'wallet', "Non custodial wallet"],
+        tags: ['EVM', 'wallet', "Non custodial wallet", ],
         link: 'https://walletfrontend.vercel.app/'
     },
     {
         name: 'No-Code ERC20 Token Launcher DApp',
-        description: 'An intuitive interface that allows you to launch a custom token by providing details, such as name, symbol, and initial supply within the UI',
+        description: "platform features an intuitive interface that enables you to launch a custom token effortlessly. By simply providing essential details such as the token's name, symbol, and initial supply within the user-friendly UI, you can create your own token with ease. This streamlined process ensures that both beginners and experienced users can navigate the token creation journey without any hassle, making it accessible for everyone looking to bring their unique ideas to the blockchain. ",
         bannerImg: 'tokenfactory.PNG',
         tags: ['Defi', 'ERC20', "Token"],
         link: 'https://tokenfactoryfrontend.vercel.app/'

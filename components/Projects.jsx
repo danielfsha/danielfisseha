@@ -6,7 +6,7 @@ import { projects } from "@/constants/data";
 
 function Projects() {
   return (
-    <div className="wrapper pb-[var(--vertical-section-offset)]">
+    <div id="#projects" className="wrapper pb-[var(--vertical-section-offset)]">
       {projects.map((project, index) => (
         <ProjectCard
           key={index}
