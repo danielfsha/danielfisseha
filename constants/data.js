@@ -64,11 +64,11 @@ export const skillsData = [
 
 export const projects = [
     {
-        name: 'Node based social media automation builder',
-        description: 'This is a Nextjs app that allows you to create a social media automation bot that can be used to post on multiple platforms such as Twitter, Instagram, and Facebook. It also allows you to trigger certain actions based on events like email recived. The app allows you to make professional social media presence by automating your social media posts and actions.',
-        bannerImg: 'automationBuilder.PNG',
-        tags: ['Nextjs', 'Nodejs', 'NextAuthjs', 'Bot', "MongoDB"],
-        link: 'https://automation-builder-app.vercel.app/'
+        name: 'BonkGuys',
+        description: 'This is a fun mini game app that allows you to connect with your friends. It allows you to host a game or join a game room to play with your friends. The aim is to stay on the platforms for as long as possible. ',
+        bannerImg: 'bonkguys.PNG',
+        tags: ['ThreeJs', 'ReactJs', 'React Three Fiber', 'Local Storage'],
+        link: 'https://bonkguys.vercel.app/'
     },
     {
         name: 'Talk to PDF using your voice',
